@@ -1,134 +1,134 @@
 # Exercises:
 # =============================================================================
-# # 1
-# print('''
-# Hello
-#     Hello
-#         Hello
-# ''')
+ # 1
+ print('''
+ Hello
+     Hello
+         Hello
+ ''')
 # =============================================================================
 
 # =============================================================================
-# # 2
-# for i in range(20):
-#     print('Orange Academy')
-#
+ # 2
+ for i in range(20):
+     print('Orange Academy')
+
 # =============================================================================
 
 # =============================================================================
-# # 3
-# x = float(1)
-# y = float(2.8)
-# z = float("3")
-# w = float("4.2")
-# print(x, y, z, w, sep='\t') # sep='10'
-#
+ # 3
+ x = float(1)
+ y = float(2.8)
+ z = float("3")
+ w = float("4.2")
+ print(x, y, z, w, sep='\t') # sep='10'
+
 # =============================================================================
 
 # =============================================================================
-# 4
-# num1 = int(input('Enter first number: '))
-# num2 = int(input('Enter second number: '))
-# print(num1 * num2)
+ 4
+ num1 = int(input('Enter first number: '))
+ num2 = int(input('Enter second number: '))
+ print(num1 * num2)
 # =============================================================================
 
 # =============================================================================
 # 5
-# sum = 0
-# for i in range(5):
-#   num = int(input('Enter number:'))
-#   sum += num
-#
-# print(sum / 5)
+ sum = 0
+ for i in range(5):
+   num = int(input('Enter number:'))
+   sum += num
+
+ print(sum / 5)
 # =============================================================================
 
 # =============================================================================
 # 6
-# x = 1
-# y = 2.8
-# z = 1j
-# o = "Orange"
-# A = True
-# print(type(x))
-# print(type(y))
-# print(type(o))
-# print(type(A))
-# =============================================================================
+ x = 1
+ y = 2.8
+ z = 1j
+ o = "Orange"
+ A = True
+ print(type(x))
+ print(type(y))
+ print(type(o))
+ print(type(A))
+ =============================================================================
 
 # =============================================================================
 # # 7
-# x, y = 'Ornage', 1
-# x1, y1 = 100, -10
-# print(x)
-# print(y)
-# print(x1)
-# print(y1)
+ x, y = 'Ornage', 1
+ x1, y1 = 100, -10
+ print(x)
+ print(y)
+ print(x1)
+ print(y1)
 # =============================================================================
 
 # =============================================================================
 # 8
-# 5x = 10
-# print(5x)
-# X_q$ = "Orange"
-# print(X_q$)
-# A B = 14
-# print(A B)
-# Print("10"*10)
+ 5x = 10
+ print(5x)
+ X_q$ = "Orange"
+ print(X_q$)
+ A B = 14
+ print(A B)
+ Print("10"*10)
 # =============================================================================
 
 # =============================================================================
 # # 9
-# x, y = "Orange", 1
-# x1, y1 = 100, -10
-# print(x)
-# print(y)
-# print(x1)
-# print(y1)
+ x, y = "Orange", 1
+ x1, y1 = 100, -10
+ print(x)
+ print(y)
+ print(x1)
+ print(y1)
 # =============================================================================
 
 # =============================================================================
 # # 10
-# x5 = 10
-# print(x5)
-# x_q = "Orange"
-# print(x_q)
-# AB = 14
-# print(AB)
-# print("10" * 20)
+ x5 = 10
+ print(x5)
+ x_q = "Orange"
+ print(x_q)
+ AB = 14
+ print(AB)
+ print("10" * 20)
 # =============================================================================
 
 # =============================================================================
 # # 11
-# # print("Hello, world!")
-# print("Cheers, Mate!")  # This is the program
-# '''
-# Testing
-# The Code
-# '''
+ # print("Hello, world!")
+ print("Cheers, Mate!")  # This is the program
+ '''
+ Testing
+ The Code
+ '''
 # =============================================================================
 
 
 # =============================================================================
 # # 12
-# name = input('Enter your name: ')
-# age = int(input("Enter your age: "))
-#
-# current_year = 2019
-# years_to_100 = 100 - age
-# year_100 = current_year + years_to_100
-#
-# print('Your name is ' + name + ' and you\'ll be 100 years in ' + str(year_100))
-#
+ name = input('Enter your name: ')
+ age = int(input("Enter your age: "))
+
+ current_year = 2019
+ years_to_100 = 100 - age
+ year_100 = current_year + years_to_100
+
+ print('Your name is ' + name + ' and you\'ll be 100 years in ' + str(year_100))
+
 # =============================================================================
 
 
 # =============================================================================
 # # 13
-# height = int(input('Enter height: '))
-# base = int(input('Enter base: '))
-# area = .5 * height * base
-#
-# print('triangle area ' + str(area))
+ height = int(input('Enter height: '))
+ base = int(input('Enter base: '))
+ area = .5 * height * base
+
+ print('triangle area ' + str(area))
 # =============================================================================
 
 
