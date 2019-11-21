@@ -71,6 +71,7 @@
 
 
 # 9
+
 for x in range(10):
     n = 1
     for j in range(9 - x):
@@ -84,12 +85,13 @@ for x in range(10):
 
 for x in range(10):
     n = 1
-    for j in range(x):
+    for j in range(x+1):
         print(' ', end='  ')
-    for j in range(8 - x):
-        print(f'  {n}', end='')
+    for j in range((8 - x)):
+        print(f'{n}', end='  ')
         n += 1
-
+    for j in range(7 - x, 0, -1):
+        print(j, end='  ')
     print('')
 
 
