@@ -17,13 +17,18 @@ print(a)
 # 5
 l5_1 = [1, 2, 3, 4, 5]
 l5_2 = []
-if print(len(l5_1) < 1):
+if len(l5_1) < 1:
     print('list is empty')
-if print(len(l5_2) > 0):
-    print('list is NOT empty')
+else:
+    print('not empty')
+if len(l5_2) > 0:
+    print('list is empty')
+else:
+    print('not empty')
 if not a:
     print('list is empty')
-
+else:
+    print('list not empty')
 # 6
 t6 = 'a string', 1, True, [1, 2]
 for item in t6:
