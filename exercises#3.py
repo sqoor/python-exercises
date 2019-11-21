@@ -40,8 +40,8 @@ for item in num_set:
     print(item)
 
 # 8
-set1 = (1, 2, 3, 4)
-set2 = (2, 3, 4)
+set1 = {1, 2, 3, 4}
+set2 = {2, 3, 4}
 print(set1 or set2)
 
 # 9
