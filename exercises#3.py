@@ -25,10 +25,12 @@ if len(l5_2) > 0:
     print('list is empty')
 else:
     print('not empty')
+
 if not a:
     print('list is empty')
 else:
     print('list not empty')
+
 # 6
 t6 = 'a string', 1, True, [1, 2]
 for item in t6:
@@ -42,7 +44,7 @@ for item in num_set:
 # 8
 set1 = {1, 2, 3, 4}
 set2 = {2, 3, 4}
-print(set1 or set2)
+print(set1 & set2)
 
 # 9
 setx = set(['green', 'blue'])
@@ -54,11 +56,10 @@ print(seta)
 seta = set([5, 10, 3, 15, 2, 20])
 print(len(seta))
 
-
 # 11
-dic1 = {1:10, 2:20}
-dic2 = {3:30, 4:40}
-dic3 = {5:50, 6:60}
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}
+dic3 = {5: 50, 6: 60}
 dic4 = {}
 for d in (dic1, dic2, dic2):
     dic4.update(d)
@@ -68,7 +69,7 @@ print(dic4)
 a = 'Hello, World!'
 print(a[1])
 print(a[2:5])
-print(b[-5:-2])
+print(a[-5:-2])
 print(len(a))
 print(a.lower())
 print(a.replace('H', 'J'))
