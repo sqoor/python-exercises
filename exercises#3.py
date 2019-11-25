@@ -73,3 +73,6 @@ print(a[-5:-2])
 print(len(a))
 print(a.lower())
 print(a.replace('H', 'J'))
+
+
+
